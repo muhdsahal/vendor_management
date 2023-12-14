@@ -84,8 +84,8 @@ Install required packages using pip:
 
 ```
 
-    django-admin startproject api
-    django-admin startapp vendors
+    django-admin startproject backend
+    django-admin startapp api
 ```
 
 ### 5. Configuration
