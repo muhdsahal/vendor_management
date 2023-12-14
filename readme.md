@@ -54,8 +54,8 @@ Installation process
 
 The project is structured as follows:
 
-- `api/` - Django project folder
-- `vendors/` - Django app for vendor management
+- `backend/` - Django project folder
+- `api/` - Django app for vendor management
 - `venv/` - Virtual environment for Python
 
 ## Setup Instructions
@@ -97,7 +97,7 @@ Add the following apps to `INSTALLED_APPS` in `api/settings.py`:
 ```
     INSTALLED_APPS = [
         # ...
-        'vendors',
+        'api',
         'rest_framework',
         'corsheaders',
 	'rest_authtoken',
